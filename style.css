@@ -1,75 +1,145 @@
-
 @font-face {
-    font-family:folkard;
-    src: url(resources/folkard.ttf);
+  font-family: folkard;
+  src: url(resources/folkard.ttf);
 }
 
 @font-face {
-    font-family: lifeCraft;
-    src: url(resources/LifeCraft.ttf);
+  font-family: lifeCraft;
+  src: url(resources/LifeCraft.ttf);
 }
-
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: folkard;
+  margin: 0;
+  padding: 0;
+  font-family: folkard;
 }
 
 body {
-    background-image: url(resources/ironforge__world_of_warcraft__by_cutesexyrobutts_dczxjva-fullview.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url(resources/ironforge__world_of_warcraft__by_cutesexyrobutts_dczxjva-fullview.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
 
 .header-contain {
-    width:100%;
-    background-color: #4A4B64;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  background-color: #4a4b64;
+  display: flex;
+  justify-content: center;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    width: 70%;
-    color:#FADCDA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  width: 70%;
+  color: #fadcda;
 }
 
 .header h1 {
-    margin: auto;
-    font-family: lifeCraft;
-    font-size: 38px;
-    font-weight: 200;
+  margin: auto;
+  font-family: lifeCraft;
+  font-size: 38px;
+  font-weight: 200;
 }
 
-
 .middle-contain {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ABOUT */
 
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 70%;
-    padding: 75px;
+  color: #fadcda;
+  text-decoration: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  padding: 75px;
+  gap: 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.about h1 {
+  font-size: 28px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 70%;
+}
+
+.member-profile-top {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-profile-top img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid blue;
+}
+
+.member-profile-top p {
+}
+
+.member-profile-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 70%;
+}
+
+.member-profile {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-profile p {
+}
+
+.member-profile img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid blue;
+}
+
+.harold {
+  background-image: url(resources/Undead_male.gif);
+  width: 50px;
+  height: 50px;
 }
 
 /* #FADCDA - whiteish 
