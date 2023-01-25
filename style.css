@@ -16,7 +16,8 @@
 body {
   background-image: url(resources/ironforge__world_of_warcraft__by_cutesexyrobutts_dczxjva-fullview.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: folkard;
 }
 
@@ -85,6 +86,8 @@ body {
   font-size: 18px;
 }
 
+/* MEMBER PANEL */
+
 .members {
   display: flex;
   flex-direction: column;
@@ -95,18 +98,37 @@ body {
 }
 
 .member-profile-top {
-  border: 2px solid blue;
+  color: #fadcda;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+  1px 1px 0 #000;
+
 }
 
 .member-profile-top img {
-  height: 50px;
-  width: 50px;
-  border: 2px solid blue;
+  border: 2px solid #fadcda;
+  transition: box-shadow 0.5s;
+  box-shadow: 0 0 10px 2px #fadcda;
+  height: 100px;
+  width: 100px;
+
+
 }
+
+.member-profile-top img:hover {
+  border: 2px solid #4a4b64;
+  transition: box-shadow 1.0s;
+  box-shadow: 0 0 20px 5px #fadcda;
+  width: 125px;
+  height: 125px;
+}
+
 
 .member-profile-top p {
 }
@@ -114,26 +136,40 @@ body {
 .member-profile-bottom {
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 2px solid red;
+  align-items: flex-start;
   width: 70%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 .member-profile {
-  border: 2px solid blue;
+  color:#fadcda;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  gap: 20px;
 }
 
 .member-profile p {
 }
 
 .member-profile img {
-  height: 50px;
-  width: 50px;
-  border: 2px solid blue;
+  border: 2px solid #fadcda;
+  transition: box-shadow 0.5s;
+  box-shadow: 0 0 10px 2px #fadcda;
+  height: 100px;
+  width: 100px;
+}
+
+
+.member-profile img:hover {
+  border: 2px solid #fadcda;
+  transition: box-shadow 1.0s;
+  box-shadow: 0 0 20px 5px #fadcda;
+  width: 125px;
+  height: 125px;
 }
 
 .harold {
