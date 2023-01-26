@@ -113,6 +113,7 @@ body {
 
 .member-profile-top img {
   border: 2px solid #fadcda;
+  border-radius: 12px;
   transition: box-shadow 0.5s;
   box-shadow: 0 0 10px 2px #fadcda;
   height: 100px;
@@ -122,15 +123,11 @@ body {
 }
 
 .member-profile-top img:hover {
-  border: 2px solid #4a4b64;
+  border: 2px solid #fadcda;
   transition: box-shadow 1.0s;
   box-shadow: 0 0 20px 5px #fadcda;
   width: 125px;
   height: 125px;
-}
-
-
-.member-profile-top p {
 }
 
 .member-profile-bottom {
@@ -152,11 +149,9 @@ body {
   gap: 20px;
 }
 
-.member-profile p {
-}
-
 .member-profile img {
   border: 2px solid #fadcda;
+  border-radius: 12px;
   transition: box-shadow 0.5s;
   box-shadow: 0 0 10px 2px #fadcda;
   height: 100px;
