@@ -13,8 +13,16 @@
   padding: 0;
 }
 
-body {
+.ironForge {
   background-image: url(resources/ironforge__world_of_warcraft__by_cutesexyrobutts_dczxjva-fullview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: folkard;
+}
+
+.onyxia {
+  background-image: url(resources/onyxia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
